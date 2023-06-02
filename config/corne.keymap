@@ -23,19 +23,19 @@
 
         default_layer {
             bindings = <
-&trans  &kp Q  &kp W     &kp E  &kp R           &kp T        &kp Y  &kp U      &kp I    &kp O          &kp P  &trans
-&trans  &kp A  &kp S     &kp D  &kp F           &kp G        &kp H  &kp J      &kp K    &kp L  &kp SEMICOLON  &trans
-&trans  &kp Z  &kp X     &kp C  &kp V           &kp B        &kp N  &kp M  &kp COMMA  &kp DOT      &kp SLASH  &trans
-                      &kp LGUI  &mo 1  &kp LEFT_SHIFT    &kp SPACE  &mo 2   &kp RALT
+&trans  &kp Q  &kp W     &kp E  &kp R       &kp T        &kp Y  &kp U      &kp I    &kp O          &kp P  &trans
+&trans  &kp A  &kp S     &kp D  &kp F       &kp G        &kp H  &kp J      &kp K    &kp L  &kp SEMICOLON  &trans
+&trans  &kp Z  &kp X     &kp C  &kp V       &kp B        &kp N  &kp M  &kp COMMA  &kp DOT      &kp SLASH  &trans
+                      &kp LGUI  &mo 1  &kp LSHIFT    &kp SPACE  &mo 2   &kp RALT
             >;
         };
 
         upper_layer {
             bindings = <
-&none  &kp ESC  &kp NUM_2      &kp LEFT_BRACKET      &kp RIGHT_BRACKET     &kp RETURN        &kp ENTER  &kp NUMBER_7        &kp N8  &kp NUMBER_9            &kp SQT  &none
-&none  &kp TAB  &kp LC(S)  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSPACE    &kp BACKSPACE  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6         &kp RETURN  &none
-&none  &kp ESC      &none        &kp LEFT_BRACE        &kp RIGHT_BRACE       &kp LALT     &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp DOUBLE_QUOTES  &none
-                                          &mo 3                  &mo 1       &kp LGUI         &kp RGUI         &mo 2      &kp RSFT
+&none  &kp ESC  &kp NUM_2      &kp LEFT_BRACKET      &kp RIGHT_BRACKET     &kp RETURN         &kp ENTER  &kp NUMBER_7        &kp N8  &kp NUMBER_9            &kp SQT  &none
+&none  &kp TAB  &kp LC(S)  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSPACE     &kp BACKSPACE  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6         &kp RETURN  &none
+&none  &kp ESC      &none        &kp LEFT_BRACE        &kp RIGHT_BRACE       &kp LALT      &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp DOUBLE_QUOTES  &none
+                                          &mo 3                  &mo 1       &kp LGUI    &kp LEFT_SHIFT         &mo 2      &kp RSFT
             >;
         };
 
