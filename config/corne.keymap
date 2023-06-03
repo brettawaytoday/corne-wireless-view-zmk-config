@@ -32,10 +32,10 @@
 
         upper_layer {
             bindings = <
-&none  &kp ESC  &kp NUM_2      &kp LEFT_BRACKET      &kp RIGHT_BRACKET     &kp RETURN             &kp ENTER  &kp NUMBER_7        &kp N8  &kp NUMBER_9   &kp MINUS  &none
-&none  &kp TAB  &kp LC(S)  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSPACE         &kp BACKSPACE  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp RETURN  &none
-&none  &kp ESC      &none        &kp LEFT_BRACE        &kp RIGHT_BRACE       &kp LALT          &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3    &kp PLUS  &none
-                                          &mo 3                  &mo 1       &kp LGUI    &kp LS(LEFT_SHIFT)         &mo 2     &kp MINUS
+&none               &kp ESC     &kp BACKSLASH      &kp LEFT_BRACKET      &kp RIGHT_BRACKET     &kp RETURN             &kp ENTER  &kp NUMBER_7        &kp N8  &kp NUMBER_9   &kp MINUS  &none
+&none               &kp TAB  &kp LC(LA(LALT))  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSPACE         &kp BACKSPACE  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp RETURN  &none
+&none  &kp LC(LEFT_CONTROL)  &kp LG(LEFT_GUI)        &kp LEFT_BRACE        &kp RIGHT_BRACE       &kp LALT          &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3    &kp PLUS  &none
+                                                              &mo 3                  &mo 1       &kp LGUI    &kp LS(LEFT_SHIFT)         &mo 2     &kp MINUS
             >;
         };
 
