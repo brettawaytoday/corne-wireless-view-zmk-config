@@ -32,27 +32,27 @@
 
         upper_layer {
             bindings = <
-&none  &kp ESC     &kp BACKSLASH      &kp LEFT_BRACKET      &kp RIGHT_BRACKET     &kp RETURN       &kp EXCLAMATION  &kp NUMBER_7        &kp N8  &kp NUMBER_9   &kp MINUS  &none
-&none  &kp TAB  &kp LC(LA(LALT))  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSPACE         &kp BACKSPACE  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp RETURN  &none
-&none  &kp SQT  &kp LG(LEFT_GUI)        &kp LEFT_BRACE        &kp RIGHT_BRACE       &kp LALT          &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3   &kp EQUAL  &none
-                                                 &mo 3                  &mo 1       &kp LGUI    &kp LS(LEFT_SHIFT)         &mo 2     &kp MINUS
+&none  &trans     &kp BACKSLASH      &kp LEFT_BRACKET      &kp RIGHT_BRACKET   &kp ESC       &kp EXCLAMATION  &kp NUMBER_7        &kp N8  &kp NUMBER_9   &kp MINUS  &none
+&none  &trans  &kp LC(LA(LALT))  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS   &kp TAB         &kp BACKSPACE  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp RETURN  &none
+&none  &trans  &kp LG(LEFT_GUI)        &kp LEFT_BRACE        &kp RIGHT_BRACE  &kp APOS          &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3   &kp EQUAL  &none
+                                                &mo 3                  &mo 1  &kp LGUI    &kp LS(LEFT_SHIFT)         &mo 2     &kp MINUS
             >;
         };
 
         lower_layer {
             bindings = <
-&trans  &kp BANG  &kp ATSN  &kp UP_ARROW   &kp DLLR  &kp X    &kp LCTRL     &kp LS(LCTRL)  &kp KMLT  &kp LPRN  &kp BACKSPACE  &trans
-&trans  &kp HASH  &kp LEFT      &kp DOWN  &kp RIGHT  &kp C     &kp LALT  &kp LS(LEFT_ALT)  &kp LBRC  &kp RBRC       &kp BKSP  &trans
-&trans  &kp LSFT  &kp KPLS      &kp LBKT      &kp Z  &kp V     &kp LCMD      &kp LS(LCMD)  &kp DOWN    &kp UP      &kp RIGHT  &trans
-                               &kp LS(Z)      &mo 1  &kp Z      &kp SPC             &mo 2  &kp RSFT
+&trans  &kp BANG  &kp ATSN  &kp UP_ARROW   &kp DLLR   &kp X    &kp LCTRL     &kp LS(LCTRL)  &kp KMLT  &kp LPRN  &kp BACKSPACE  &trans
+&trans  &kp HASH  &kp LEFT      &kp DOWN  &kp RIGHT   &kp C     &kp LALT  &kp LS(LEFT_ALT)  &kp LBRC  &kp RBRC       &kp BKSP  &trans
+&trans  &kp LSFT  &kp KPLS      &kp LBKT      &kp Z   &kp V     &kp LCMD      &kp LS(LCMD)  &kp DOWN    &kp UP      &kp RIGHT  &trans
+                                  &trans      &mo 1  &trans      &kp SPC             &mo 2  &kp RSFT
             >;
         };
 
         layer_3 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &bt BT_SEL 0  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &bt BT_SEL 1  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &bt BT_SEL 2  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans        &trans  &bt BT_SEL 0  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &bt BT_SEL 4  &bt BT_SEL 1  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &bt BT_SEL 3  &bt BT_SEL 2  &trans
                         &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
