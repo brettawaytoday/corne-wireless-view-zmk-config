@@ -35,7 +35,7 @@
 &none  &trans     &kp BACKSLASH      &kp LEFT_BRACKET      &kp RIGHT_BRACKET   &kp ESC           &kp EXCLAMATION  &kp LS(LEFT_ARROW)    &kp UP_ARROW  &kp LS(RIGHT)            &kp SQT  &none
 &none  &trans  &kp LC(LA(LALT))  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS   &kp TAB                     &none      &kp LEFT_ARROW  &kp DOWN_ARROW      &kp RIGHT              &none  &none
 &none  &trans  &kp LG(LEFT_GUI)        &kp LEFT_BRACE        &kp RIGHT_BRACE  &kp APOS    &kp LG(LS(LEFT_ARROW))  &kp LG(LEFT_ARROW)           &none  &kp LG(RIGHT)  &kp LS(LG(RIGHT))  &none
-                                                &mo 3                  &none  &kp LGUI        &kp LS(LEFT_SHIFT)              &tog 1          &tog 0
+                                                &mo 3                  &none  &kp LGUI        &kp LS(LEFT_SHIFT)               &sl 1           &to 0
             >;
         };
 
