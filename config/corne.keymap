@@ -33,7 +33,7 @@
         upper_layer {
             bindings = <
 &none  &kp ESC     &kp BACKSLASH      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp LG(TAB)           &kp EXCLAMATION  &kp LS(LEFT_ARROW)    &kp UP_ARROW  &kp LS(RIGHT)            &kp SQT  &none
-&none   &trans          &kp PIPE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS          &kp TAB                     &none      &kp LEFT_ARROW  &kp DOWN_ARROW      &kp RIGHT              &none  &none
+&none   &trans          &kp PIPE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS          &kp TAB             &kp BACKSPACE      &kp LEFT_ARROW  &kp DOWN_ARROW      &kp RIGHT          &kp ENTER  &none
 &none    &none  &kp LG(LEFT_GUI)        &kp LEFT_BRACE        &kp RIGHT_BRACE  &kp LS(LG(TAB))    &kp LG(LS(LEFT_ARROW))  &kp LG(LEFT_ARROW)           &none  &kp LG(RIGHT)  &kp LS(LG(RIGHT))  &none
                                                  &mo 3                  &none         &kp LGUI        &kp LS(LEFT_SHIFT)               &none           &none
             >;
